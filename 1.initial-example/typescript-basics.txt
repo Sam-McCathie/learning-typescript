@@ -1,0 +1,20 @@
+Course = https://www.youtube.com/watch?v=BwuLxPH8IDs&ab_channel=Academind
+
+What is TypeScript? TypeScript is compiled into JavaScript
+- A JavaScript Superset
+- A Language building up on JavaScript
+- Adds new Features + Advantages to JavaScript
+- Browser cannot execute it!
+- Features are compiled to JS "workarounds", possible erros are thrown.
+
+Why TypeScript?
+- Prevents unwanted behavior at runtime.
+- Type script is a "Tool" that helps developers write better code.
+
+TypeScript adds:
+- Types -> Need to be more explicit as to how things work -> can avoid unexpected errors
+- Next-gen JavaScript Features
+- Non-JavaScript features like interfaces or generics
+- Meta-programming features like decorators
+- Rich configuration options
+- Modern tooling that helps even non-TypeScript Projects
