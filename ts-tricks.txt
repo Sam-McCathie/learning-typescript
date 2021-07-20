@@ -1,3 +1,6 @@
+Tutorial - https://www.youtube.com/watch?v=BwuLxPH8IDs&list=PLG2hea2D10bWOR2vE4wIW2clc-UcYIIzE&index=20&t=6179s&ab_channel=Academind
+
 tsc {filename.ts} -w = this will watch the file for updates and recompile when changes occur.
 
 tsc --init = run inside source file -> this will check the entire project for changes.
+tsc --watch = this will watch all the files in the directory for changes. (run tsc --init first)
