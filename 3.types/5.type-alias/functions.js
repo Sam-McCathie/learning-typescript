@@ -1,3 +1,4 @@
+"use strict";
 // void - used when a function does not return a value.
 function add(n1, n2) {
     return n1 + n2;

@@ -1,0 +1,3 @@
+tsc {filename.ts} -w = this will watch the file for updates and recompile when changes occur.
+
+tsc --init = run inside source file -> this will check the entire project for changes.

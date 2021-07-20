@@ -1,7 +1,7 @@
 //literal type = strictly defines what the data should be when it could be two or more different values.
 // +{input} -> converts to a number
 
-function combine(
+function combine3(
   input1: number | string,
   input2: number | string,
   resultCoversion: "as-number" | "as-string" // literal example
@@ -18,11 +18,11 @@ function combine(
   return result;
 }
 
-const combineAges = combine(30, 55, "as-number");
+const combineAges3 = combine3(30, 55, "as-number");
 console.log(combineAges);
 
-const combineStrings = combine("30", "55", "as-number");
+const combineStrings3 = combine3("30", "55", "as-number");
 console.log(combineAges);
 
-const combineNames = combine("Sam", "Acacia", "as-string");
+const combineNames3 = combine3("Sam", "Acacia", "as-string");
 console.log(combineNames);

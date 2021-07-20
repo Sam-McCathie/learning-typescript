@@ -1,5 +1,5 @@
 //Union types {type} | {type} | {type} can be any type specified
-function combine(input1: number | string, input2: number | string) {
+function combine2(input1: number | string, input2: number | string) {
   let result;
   if (typeof input1 === "number" && typeof input2 === "number") {
     result = input1 + input2;
@@ -9,8 +9,8 @@ function combine(input1: number | string, input2: number | string) {
   return result;
 }
 
-const combineAges = combine(30, 55);
+const combineAges2 = combine2(30, 55);
 console.log(combineAges);
 
-const combineNames = combine("Sam", "Acacia");
+const combineNames2 = combine2("Sam", "Acacia");
 console.log(combineNames);

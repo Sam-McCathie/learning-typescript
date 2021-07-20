@@ -1,3 +1,4 @@
+"use strict";
 //Type alias - store multiple types inside of it so that it can be re-used.
 function combine(input1, input2, resultCoversion // literal example
 ) {
